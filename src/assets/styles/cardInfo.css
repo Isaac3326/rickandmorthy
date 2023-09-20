@@ -1,0 +1,67 @@
+.card{
+    width: 300px;
+    background-color: #072226;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.card__header{
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.card__status{
+    position: relative;
+    top: 50px;
+    left: 0;
+    z-index: 2;
+    background-color: #072226;
+    width: 20%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.status__resident{
+
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin-right: 5px;
+    border-radius: 50%;
+
+}
+
+.card__img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.card__name{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+
+
+}
+
+.parrafo{
+    color: grey;
+    padding-left: 35px;
+}
+
+h2{
+    color: snow;
+    padding-left: 20px;
+}
